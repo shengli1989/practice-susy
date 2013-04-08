@@ -1,0 +1,37 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "base";
+
+/* -------------------------------------------------------------------------*/
+/* Layout */
+
+
+
+
+.container {
+  @include container;
+
+  background-color: yellow;
+  height: 300px;
+}
+.nav {
+  @include span-columns(5,12);
+  background-color: #ddd;
+  padding: 30px;
+  height: 300px;
+
+}
+.article {
+  @include span-columns(5 omega,12);
+  background-color: #ddd;
+  height: 200px;
+}
+
+
+
+@include at-breakpoint(300px 600px) {
+  .nav {
+    @include span-columns(2,12);
+  }
+}

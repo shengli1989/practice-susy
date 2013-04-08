@@ -1,0 +1,51 @@
+/* -------------------------------------------------------------------------*/
+/* Layout */
+/* line 12, ../sass/screen.scss */
+.container {
+  *zoom: 1;
+  max-width: 940px;
+  _width: 940px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: yellow;
+  height: 300px;
+}
+/* line 38, ../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 18, ../sass/screen.scss */
+.nav {
+  width: 40.42553%;
+  float: left;
+  margin-right: 2.12766%;
+  display: inline;
+  background-color: #ddd;
+  padding: 30px;
+  height: 300px;
+}
+
+/* line 25, ../sass/screen.scss */
+.article {
+  width: 40.42553%;
+  float: right;
+  margin-right: 0;
+  #margin-left: -20px;
+  display: inline;
+  background-color: #ddd;
+  height: 200px;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  /* line 34, ../sass/screen.scss */
+  .nav {
+    width: 14.89362%;
+    float: left;
+    margin-right: 2.12766%;
+  }
+}
